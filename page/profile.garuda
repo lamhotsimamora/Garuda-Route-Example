@@ -1,0 +1,15 @@
+<div class="card">
+  <div class="card-body">
+    <div class="alert alert-success" id="_profile" role="alert">
+	  Halaman Profile
+	</div><br>
+	<a id="btn_profile" class="btn btn-primary" style="color: white">Profile</a>
+  </div>
+</div>
+
+<script>
+_setTitle('Profile');
+Garuda('btn_profile').when('click',()=>{
+	Garuda('_profile').setHtml(':: <strong>PROFILE</strong>');
+});
+</script>

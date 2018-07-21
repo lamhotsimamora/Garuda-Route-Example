@@ -1,0 +1,13 @@
+<div id="_about" class="card">
+  <div class="card-body">
+	<div class="alert alert-primary" role="alert">
+	  Halaman About
+	</div>
+  </div>
+</div>
+
+
+<script>
+Garuda('_about').animate('fadein');
+_setTitle('About');
+</script>

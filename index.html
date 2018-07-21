@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Contoh Garuda Route</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<script src="https://www.cdn.lamhotsimamora.com/garuda2/"></script>
+	<script src="https://www.cdn.lamhotsimamora.com/garuda-route/"></script>
+
+</head>
+<body>
+	<br><br>	
+	<div class="container">
+		<!-- 
+			 Tag element <garuda-route-link> berikut ini akan dirender 
+			 secara otomatis menjadi tag element LINK <a href=""></a> 
+		-->
+		<garuda-route-link class="badge badge-primary" route="Home"></garuda-route-link>
+		<garuda-route-link class="badge badge-success" route="Profile"></garuda-route-link>
+		<garuda-route-link class="badge badge-warning" route="Nothing"></garuda-route-link>
+		<garuda-route-link class="badge badge-danger" route="About"></garuda-route-link>
+	</div>
+	
+	<br><br>
+	
+	<div id="app" class="container">
+		<!-- response dari route akan dirender disini -->
+	</div>
+
+</body>
+<script src="app.js"></script>
+</html>

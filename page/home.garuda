@@ -1,0 +1,23 @@
+<div id="_home" class="card" style="width: 18rem;">
+  <img class="card-img-top" src="image/garuda-javascript.png" alt="Card image cap">
+  <div class="card-body">
+    <h5 class="card-title">Home</h5>
+    <hr>
+    <p class="card-text">
+    	Lorem ipsum et irure dolor in incididunt ex duis et fugiat cupidatat velit labore et mollit in reprehenderit aute voluptate.
+    	<br>
+    	<strong>
+       <div id="_token"></div> 
+      </strong>
+    </p>
+    <hr>
+    <a id="btn_home" class="btn btn-primary" style="color: white">Click Me</a>
+  </div>
+</div>
+
+<script>
+   _setTitle('Home');
+	Garuda('btn_home').when('click',()=>{
+		Garuda('_token').setHtml(_randomStr(15));
+	});
+</script>
